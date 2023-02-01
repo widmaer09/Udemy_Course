@@ -16,9 +16,13 @@ public class Main {
 
         intTree.TraverseInorder();
 
-      System.out.println(intTree.get(27));
-        System.out.println(intTree.min());
-        System.out.println(intTree.max());
+        intTree.delete(15);
+       System.out.println();
+        intTree.TraverseInorder();
+
+     // System.out.println(intTree.get(27));
+        //System.out.println(intTree.min());
+        //System.out.println(intTree.max());
         //System.out.println(intTree.get(888).getData());
 
 
